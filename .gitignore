@@ -1,0 +1,94 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / local runtimes
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Codex/agent metadata
+.agents/
+.codex/
+
+# Temporary workspaces
+.tmp/
+tmp/
+temp/
+docx_render_check/
+pdf_extracts/
+*_unpacked/
+
+# MATLAB / COMSOL / simulation runtime artifacts
+*.asv
+*.fig
+*.slxc
+*.mex*
+*.mph
+*.mphbin
+*.mphlock
+*.mat
+
+# Large generated archives and binary deliverables
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.docx
+*.pptx
+*.pdf
+*.xlsx
+
+# Generated images can be reproduced from scripts and data.
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Project output directories
+comsol_outputs/
+figures/
+paper_figures/
+paper_tables/
+paper_validation_integrated_outputs/
+COMSOL_EAHE_30m_MATLAB_baseline/
+COMSOL_EAHE_field_materials/
+COMSOL_EAHE_mesh_independence/
+COMSOL_*outputs*/
+COMSOL_*Results*/
+COMSOL_*results*/
+COMSOL_Sharan_50m_CFD_*/
+COMSOL_Sharan_pipe_h_benchmark*/
+EAHE_*results*/
+EAHE_Fig*_Results/
+Minaei*_results*/
+Minaei_literature_data_extract/
+Minaei_parameter_gap_CFD_MinaeiG_validation/
+Minaei_parameter_gap_CFD_MinaeiG_validation_MATLAB_curves/
+MATLAB_*validation*/
+MATLAB_Sharan_50m_MinaeiG_validation/
+MATLAB_Vaz_Minaei_params_digitized_validation/
+MATLAB_annual_CFD_vs_original_model_validation/
+Origin_export_validation_data/
+Validation_*/
+single_straight_pipe_literature_validation/
+literature_extraction/
+literature_validation_extracts/
+image_digitization_*/

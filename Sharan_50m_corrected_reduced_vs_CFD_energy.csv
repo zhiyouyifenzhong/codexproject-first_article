@@ -1,0 +1,3 @@
+﻿"case_name","CFD_energy_kWh","corrected_energy_kWh","corrected_minus_CFD_kWh","relative_error_percent"
+"Sharan_January_heating","4.16292759310197","4.06181675415063","-0.101110838951338","-2.42883972132689"
+"Sharan_May_cooling","2.14182383894487","1.99393641038655","-0.147887428558315","-6.90474285836549"
